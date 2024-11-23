@@ -33,7 +33,7 @@ def forward_selection(total_features):
 
                 # update if this subset gives the best accuracy so far
 
-                
+
                 if accuracy >= best_accuracy_so_far:
                     best_accuracy_so_far = accuracy
                     feature_to_add_at_this_level = feature
@@ -130,7 +130,7 @@ def main():
     elif choice == '2':
         backward_elimination(total_features)
     else:
-        print("Invalid choice or special algorithm not implemented.")
+        print("No Special Algorithm")
 
 
 if __name__ == '__main__':
